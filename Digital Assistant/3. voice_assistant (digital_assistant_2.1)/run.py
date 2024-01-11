@@ -180,7 +180,7 @@ class mainT(QThread):
         
 
                 elif "weather update" in self.query.lower() or "is the weather" in self.query.lower() or "weather" in self.query.lower():
-                    api_key = '30d4741c779ba94c470ca1f63045390a'
+                    api_key = 'enter openweather api key'
                     user_input = input("Enter city: ")
                     try:
                         weather_data = requests.get(
