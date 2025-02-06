@@ -19,7 +19,7 @@ import numpy as np
 import cv2
 from win32api import GetSystemMetrics
 
-openai.api_key = "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"
+openai.api_key = ""
 
 warnings.filterwarnings("ignore")
 
